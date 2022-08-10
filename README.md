@@ -50,3 +50,24 @@ There your are. You have your bot ready and installed in your server. Now let's 
 ```bash
   node index.js
 ```
+
+## Sample output
+
+Take a look to an actual CSV file generated with this utility. IDs have been obfuscated just for, idk, someone malicious enough to be spamming around 😁
+
+```csv
+id,nickname,bot,username,roles
+123456789000000001,,1,MEE6,MEE6
+123456789000000002,,1,Zapier,Zapier
+123456789000000003,Raúl de Marras,,rauldemarras,Networking|Admin
+123456789000000004,,1,Donut Tester,Donut Tester
+123456789000000005,,,Superpanda,
+123456789000000006,,1,Supercord,Supercord
+123456789000000007,,1,Ajolote,Random Up!Steam
+123456789000000008,,1,Autocode-Bot,Autocode-Bot
+123456789000000009,,1,DataDownloader,DataDownloader
+```
+
+## Who am I?
+
+I do a lot of stuff, and building bots is one of them. Do you have a paid community in Discord. check out https://supercord.io. A bot that will help you to fet leads from new members, restrict access to premium, improve the onboarding, launch re-engagement campaigns and much more.
