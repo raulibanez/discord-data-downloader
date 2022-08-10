@@ -48,7 +48,7 @@ client.once('ready', async () => {
                     nickname: member.nickname,
                     bot: member.user.bot,
                     username: member.user.username,
-                    roles: member._roles.map(roleId => roleDict[roleId]).join('|')
+                    roles: `${member._roles.map(roleId => roleDict[roleId]).join(',')}`
                 }
                 stringifier.write(user);	
             });
