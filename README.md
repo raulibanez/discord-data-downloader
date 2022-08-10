@@ -39,7 +39,7 @@ There your are. You have your bot ready and installed in your server. Now let's 
 
 ```bash
   {
-	"token": "<Discord Bot Token>",
+    "token": "<Discord Bot Token>",
     "guildID": "<Target Guild ID>",
     "filename": "<Output CSV filename, e.g. output.csv>"
   }
